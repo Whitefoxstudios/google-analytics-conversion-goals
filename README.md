@@ -1,4 +1,4 @@
-#=== Google Analytics Conversion Goals ===
+# === Google Analytics Conversion Goals ===
 Contributors: Michael Hurley
 Donate link: https://facebook.com/michael.carl.hurley
 Tags: Google Analytics, Analytics Goals, Goal Conversions
@@ -10,7 +10,7 @@ Stable tag: 0.1
 
 Sends events with distinct names to GA for tracking call/email clicks as goal completions
 
-##== Description ==
+## == Description ==
 Sends events with distinct names to GA for tracking call/email clicks as goal completions.
 
 Uses js to send ga events via ga('send', 'Event' ...).
@@ -22,13 +22,13 @@ Uses js to send ga events via ga('send', 'Event' ...).
 * No need for a local copy as you can't send events to GA when offline
 * Remote server has 99.997% uptime record
 
-##== Installation ==
+## == Installation ==
 1. Place the plugin in /wp-content/plugins
 2. Backup files + database *just in case*
 3. Activate
 4. Go to the front end to see if phone numbers are links have class *phone-link-processed*
 
-##=== GA Configuration ===
+## === GA Configuration ===
 1. Go to Admin > View > Goals
 2. Add Goal named Calls
 3. Set type to Event
@@ -42,7 +42,7 @@ Uses js to send ga events via ga('send', 'Event' ...).
   * Set **Label** to [reg exp] email
   * Set *optional* **Value** to *whatever you think email are worth to you*
 
-##== Changelog ==
+## == Changelog ==
 
-###= 0.1 =
+### = 0.1 =
 - Initial Revision
